@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/
+
+# Docker
+*.log
+docker-compose.yml
+Dockerfile
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+
+# Pylint
+.pylint.d/
+
+# Pyre
+.pyre/
+
+# Environments
+.env
+.env.local
+.env.production
+.env.test
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*~
+.project
+.pydevproject
+
+# Misc
+*.DS_Store
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.cache
+*.egg-info
+*.eggs
+*.pyd
+.tox/
+.coverage
+
+# Ignore all files in the videos directory except the directory itself
+/videos/*
+!/videos/
