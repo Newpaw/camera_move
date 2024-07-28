@@ -15,7 +15,6 @@ venv.bak/
 # Docker
 *.log
 docker-compose.yml
-Dockerfile
 
 # Jupyter Notebook
 .ipynb_checkpoints
